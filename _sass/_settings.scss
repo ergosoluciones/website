@@ -1,0 +1,55 @@
+// VARIABLES
+// Misc Colors
+$full-white: #fff;
+$full-black: #000;
+$yellow: #EFD54B;
+$green: #0bb276;
+$red: #de2d40;
+$orange: #f6a11d;
+
+// App Palette colors
+// Texts, Backgrounds,
+$primary-text: #333333;
+$grey-borders: #e8eced;
+$shadow: rgba(4,47,66,0.20);
+
+// Site main Colors
+$electric-violet: #C01BE3;
+
+// Values
+$line-height: 4px;
+
+// Mediaquery
+$small-mobile: "screen and (min-width: 320px)";
+$mobile: "screen and (min-width: 375px)";
+$large-mobile: "screen and (min-width: 414px)";
+$tablet: "screen and (min-width: 768px)";
+$desktop: "screen and (min-width: 1024px)";
+$big-desktop: "screen and (min-width: 1280px)";
+$large-desktop: "screen and (min-width: 1440px)";
+
+// MIXINS
+// Just the font family
+@mixin inter($color, $size) {
+  font-family: 'Inter', sans-serif;
+  font-size: $size !important;
+  font-weight: 400 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}
+
+@mixin inter-bold($color, $size) {
+  font-family: 'Inter', sans-serif;
+  font-size: $size !important;
+  font-weight: 700 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}
+
+@mixin inter-black($color, $size) {
+  font-family: 'Inter', sans-serif;
+  font-size: $size !important;
+  font-weight: 900 !important;
+  color: $color !important;
+  line-height: $size + $line-height !important;
+}

@@ -1,0 +1,65 @@
+#contacto {
+  background: linear-gradient(267.26deg, #FDEAFD 11.34%, #E8E8FC 92.15%);
+  margin: 30px 0 0;
+  position: relative;
+  @media #{$desktop}{
+    padding: 60px 0 0 100px !important;
+  }
+  h3 {
+    margin: 0 0 20px 0;
+  }
+  h4 {
+    margin: 0 0 40px 0;
+  }
+  dl {
+    @include inter($primary-text, 16px);
+    dt {
+      @include inter-bold($primary-text, 18px);
+      span {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin: 0 15px 0 0;
+        &.location {
+          background: url('/assets/img/icon-location.svg') no-repeat 0 0;
+          position: relative;
+          top: 5px;
+        }
+        &.phone {
+          background: url('/assets/img/icon-phone.svg') no-repeat 0 0;
+          position: relative;
+          top: 5px;
+        }
+        &.mail {
+          background: url('/assets/img/icon-mail.svg') no-repeat 0 0;
+          position: relative;
+          top: 5px;
+        }
+      }
+    }
+    dd {
+      padding: 0 0 5px 40px;
+      &.last {
+        border-bottom: 1px dashed $grey-borders; 
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .contacto-image {
+    @media #{$tablet}{
+      width: 420px;
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+      display: block;
+      height: 480px;
+      background: url('/assets/img/contact-image.png') no-repeat 0 0;
+      background-size: cover;
+    }
+    @media #{$desktop}{
+      right: 150px;
+      bottom: 0;
+    }
+  }
+}

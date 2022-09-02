@@ -1,0 +1,31 @@
+#clientes {
+  margin: 30px 0 0;
+  h3 {
+    margin: 0 0 20px 0;
+  }
+  h4 {
+    margin: 0 0 40px 0;
+  }
+  @media #{$tablet}{
+    .glide__track {
+      overflow: initial;
+    }
+    .glide__slides {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .glide__slide {
+      width: 300px;
+      margin-bottom: 60px
+    }
+    .glide__bullets {
+      display: none;
+    }
+  }
+  @media #{$desktop}{
+    .glide__slide {
+      width: 240px;
+    }
+  }
+}

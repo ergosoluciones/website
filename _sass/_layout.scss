@@ -1,0 +1,95 @@
+// Main Fonts for Layout
+body {
+  @include inter($primary-text, 20px);
+  background: url('/assets/img/background-lines.jpg') repeat 0 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $primary-text;
+  text-decoration: none;
+  font-weight: 600;
+  &:hover {
+    color: $electric-violet;
+  }
+}
+
+// Content Full Width Box
+.container {
+  width: calc(100% - 32px);
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+  @media #{$tablet} {
+    width: calc(100% - 40px);
+  }
+  @media #{$desktop} {
+    width: calc(100% - 40px);
+  }
+  @media #{$big-desktop} {
+    width: calc(100% - 40px);
+  }
+}
+
+// Misc Shared styles
+// Hidden: works for toggle visibility adding-removing the class with js
+.no-show {
+  display: none;
+}
+
+// Dividers - <hr> tag
+hr {
+  border: 0;
+  border-bottom: 1px solid $grey-borders;
+}
+
+// Titles
+h1 {
+  @include inter-black($primary-text, 24px);
+  text-align: center;
+  @media #{$tablet}{
+    @include inter-bold($primary-text, 40px);
+    text-align: left;
+  }
+  @media #{$tablet}{
+    @include inter-bold($primary-text, 45px);
+    text-align: left;
+  }
+}
+
+h2 {
+  @include inter-black($primary-text, 20px);
+  text-align: center;
+  @media #{$tablet}{
+    @include inter-bold($primary-text, 24px);
+    text-align: left;
+  }
+  @media #{$desktop}{
+    @include inter($primary-text, 24px);
+    text-align: left;
+  }
+}
+
+h3 {
+  @include inter-bold($primary-text, 20px);
+  text-align: center;
+  @media #{$tablet}{
+    @include inter-bold($primary-text, 28px);
+    text-align: left;
+  }
+}
+
+h4 {
+  @include inter($primary-text, 16px);
+  text-align: center;
+  @media #{$tablet}{
+    @include inter($primary-text, 18px);
+    text-align: left;
+  }
+}
+
+section#productos,
+section#clientes,
+section#contacto {
+  padding-top: 100px;
+}

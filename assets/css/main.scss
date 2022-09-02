@@ -1,0 +1,22 @@
+---
+---
+
+// App reset and settings:
+@import '_settings';
+@import '_reset';
+
+// app layout and common blocks
+@import 'layout';
+
+// shared blocks
+@import 'header';
+@import 'hero';
+@import 'productos';
+@import 'clientes';
+@import 'contacto';
+// @import 'footer';
+
+// slideshow
+@import 'glide';
+
+// section blocks
