@@ -6,7 +6,7 @@ nav {
   z-index: 1000;
   h1 {
     padding: 0;
-    background: url('assets/img/logo.svg') no-repeat 0 50%;
+    background: url('../img/logo.svg') no-repeat 0 50%;
     font-size: 0 !important;
     background-size: contain;
     width: 140px;
@@ -23,9 +23,9 @@ nav {
     right: 20px;
     width: 24px;
     height: 24px;
-    background: url('assets/img/hamburger.svg') no-repeat 0 0;
+    background: url('../img/hamburger.svg') no-repeat 0 0;
     &.close {
-      background: url('assets/img/icon-close.svg') no-repeat 0 0;
+      background: url('../img/icon-close.svg') no-repeat 0 0;
     }
     @media #{$tablet} {
       display: none;
