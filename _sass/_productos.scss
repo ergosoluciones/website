@@ -37,7 +37,7 @@
         padding: 100px 20px 0; 
         li {
           padding: 0 0 20px 30px;
-          background: url('/assets/img/icon-arrow.svg') no-repeat 0 0;
+          background: url('assets/img/icon-arrow.svg') no-repeat 0 0;
           color: $primary-text;
           text-decoration: none;
           font-weight: 600;
@@ -45,7 +45,7 @@
           &:hover,
           &.active {
             color: $electric-violet;
-            background: url('/assets/img/icon-arrow-active.svg') no-repeat 0 0;
+            background: url('assets/img/icon-arrow-active.svg') no-repeat 0 0;
           }
         }
       }
@@ -97,7 +97,7 @@
             width: 100%;
             height: 25px;
             text-align: center;
-            background: url('/assets/img/icon-argentina.jpg') no-repeat 50% 0;
+            background: url('assets/img/icon-argentina.jpg') no-repeat 50% 0;
             margin-bottom: 10px;
             @media #{$tablet}{
               display: inline-block;
@@ -161,17 +161,17 @@
               height: 24px;
               margin: 0 15px 0 0;
               &.location {
-                background: url('/assets/img/icon-location.svg') no-repeat 0 0;
+                background: url('assets/img/icon-location.svg') no-repeat 0 0;
                 position: relative;
                 top: 5px;
               }
               &.modalidad {
-                background: url('/assets/img/icon-modalidad.svg') no-repeat 0 0;
+                background: url('assets/img/icon-modalidad.svg') no-repeat 0 0;
                 position: relative;
                 top: 5px;
               }
               &.branches {
-                background: url('/assets/img/icon-branches.svg') no-repeat 0 0;
+                background: url('assets/img/icon-branches.svg') no-repeat 0 0;
                 position: relative;
                 top: 5px;
               }

@@ -21,17 +21,17 @@
         height: 24px;
         margin: 0 15px 0 0;
         &.location {
-          background: url('/assets/img/icon-location.svg') no-repeat 0 0;
+          background: url('assets/img/icon-location.svg') no-repeat 0 0;
           position: relative;
           top: 5px;
         }
         &.phone {
-          background: url('/assets/img/icon-phone.svg') no-repeat 0 0;
+          background: url('assets/img/icon-phone.svg') no-repeat 0 0;
           position: relative;
           top: 5px;
         }
         &.mail {
-          background: url('/assets/img/icon-mail.svg') no-repeat 0 0;
+          background: url('assets/img/icon-mail.svg') no-repeat 0 0;
           position: relative;
           top: 5px;
         }
@@ -54,7 +54,7 @@
       right: 50px;
       display: block;
       height: 480px;
-      background: url('/assets/img/contact-image.png') no-repeat 0 0;
+      background: url('assets/img/contact-image.png') no-repeat 0 0;
       background-size: cover;
     }
     @media #{$desktop}{
