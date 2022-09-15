@@ -8,7 +8,8 @@ hero-title-first-paragraph: Soluciones TI
 hero-title-second-paragraph: del sector Financiero
 hero-subtitle: Proveemos productos y servicios especializados a clientes de clase mundial
 products-title: Productos y Servicios
-products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo software. Ademas contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
+products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo software. 
+Contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
 products-software-factory-argentina: Software Factory Argentina
 products-herramientas-financieras: Herramientas Financieras
 products-software-factory-copy: Nuestro equipo de desarrollo multidisciplinario atiende necesidades de Análisis, Desarrollo, Documentación, Implementaciones, Guardias y Soporte a inicidentes.
