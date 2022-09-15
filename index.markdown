@@ -6,7 +6,7 @@ layout: home
 arcosule: Arcosule
 hero-title-first-paragraph: Soluciones TI
 hero-title-second-paragraph: del sector Financiero
-hero-subtitle: Proveemos productos y servicios<br>a la medida de nuestros clientes de clase mundial
+hero-subtitle: Proveemos productos y servicios<br>a la medida de compañias de clase mundial
 products-title: Productos y Servicios
 products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo software.<br>Contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
 products-software-factory-argentina: Software Factory Argentina
