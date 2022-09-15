@@ -35,7 +35,7 @@ clients-title: Clientes
 clients-subtitle: Estos son algunos de los clientes que confian en nosotros
 contact-title: Contacto
 contact-subtitle: Atenderemos su consulta a la brevedad
-contact-street: Caller Serrano 1
+contact-street: Calle Serrano 1
 contact-floor: Planta 4
 contact-zip-city: 28001 - Madrid
 contact-country: España
