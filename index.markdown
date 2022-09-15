@@ -11,7 +11,8 @@ products-title: Productos y Servicios
 products-subtitle: Nuestro equipo de profesionales brinda servicios de desarrollo software.<br>Contamos con herramientas de emulación, testing, Core bancario y bots bursátiles.
 products-software-factory-argentina: Software Factory Argentina
 products-herramientas-financieras: Herramientas Financieras
-products-software-factory-copy: Nuestro equipo de desarrollo multidisciplinario atiende el ciclo de vida completo:<br />  * Análisis  * Desarrollo  * Documentación  * Implementaciones  * Guardias  * Soporte a inicidentes
+products-software-factory-copy: Nuestro equipo de desarrollo multidisciplinario atiende el ciclo de vida completo:
+products-software-factory-copy-bullets: * Análisis  * Desarrollo  * Documentación  * Implementaciones  * Guardias  * Soporte a inicidentes
 products-oficinas: Oficinas en Buenos Aires
 products-modalidad: Modalidad Hibrida
 products-metodologias: Metodologias Agiles
