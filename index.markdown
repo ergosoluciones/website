@@ -42,5 +42,5 @@ contact-country: España
 contact-phone: Telefono
 contact-phone-number: +34 620 62 05 54
 contact-email: Email
-contact-email-address: info@arcosule.com
+contact-email-address: <a href="mailto:info@arcosule.com">info@arcosule.com</a>
 ---
