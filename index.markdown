@@ -32,7 +32,7 @@ products-fastest-copy: Automatización y prueba de regresión de formatos de men
 products-virtual-atm: VirtualATM
 products-virtual-atm-copy: Virtualizador de cajeros automáticos para desarrollo, prueba y validación de aplicaciones a nivel empresarial
 clients-title: Clientes
-clients-subtitle: Estos son algunos de los clientes que confian en nosotros
+clients-subtitle: Estas son algunas de las empresas que confian en nosotros
 contact-title: Contacto
 contact-subtitle: Atenderemos su consulta a la brevedad
 contact-street: Calle Serrano 1
